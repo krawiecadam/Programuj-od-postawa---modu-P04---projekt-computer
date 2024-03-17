@@ -23,6 +23,7 @@ public class Main {
     computer.addUSBDevice(memoryStick);
 
     computer.removeUSBDevice(mouse);
+    memoryStick.eject();
     computer.removeUSBDevice(memoryStick);
 
 
